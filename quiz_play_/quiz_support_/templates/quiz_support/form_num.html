@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Service</title>
+</head>
+<body>
+    <h1>Quiz Service</h1>
+    <form method="get">
+        {{ form.as_p }}
+        <button type="submit">Получить вопросы</button>
+    </form>
+    <h2>Вопросы:</h2>
+    <ul>
+        {% for question in questions %}
+            <li>{{ question.question_text }} | Ответ: {{ question.answer_text }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,5 +1,5 @@
 """
-WSGI config for quiz_play_ project.
+WSGI config for quiz_play project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'quiz_play_.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'quiz_play.settings')
 
 application = get_wsgi_application()

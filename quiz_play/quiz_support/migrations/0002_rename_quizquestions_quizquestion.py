@@ -6,7 +6,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('quiz_support_', '0001_initial'),
+        ('quiz_support', '0001_initial'),
     ]
 
     operations = [
